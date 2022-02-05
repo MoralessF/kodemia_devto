@@ -85,10 +85,11 @@ nav
     margin-bottom: 3px;
 }
 
-.nav_right button
+.nav_right-log, .nav_right-create
 {
     font-size: 15px;
     margin: 0 4px;
+    text-decoration: none;
 }
 
 .nav_right-log
@@ -97,6 +98,9 @@ nav
     background: none;
     color:black;
     width: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .nav_right-log:hover
@@ -115,6 +119,9 @@ nav
     background: none;
     color:rgb(53,73,223);
     width: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .nav_right-create:hover
