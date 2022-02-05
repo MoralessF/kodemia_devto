@@ -1,0 +1,162 @@
+nav
+{
+    position: fixed;
+    top: 0;
+    height: 55px;
+    width: 100%;
+    background: white;
+    border-bottom: 1px solid lightgray;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav_left
+{
+    margin-left: 10px;
+    display: flex;
+    justify-content: flex-start;
+    padding: 5px 40px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+.nav_left img:hover
+{
+    cursor: pointer;
+}
+
+.nav_left a
+{
+    width: 50px;
+    margin:0;
+    padding: 0;
+}
+
+.nav_left a img
+{
+    width: 100%;
+}
+
+.nav_left-search
+{
+    display: flex;
+    align-content: center;
+    border:1px solid lightgray;
+    border-radius: 5px;
+    margin-left: 20px;
+    padding-left: 5px;
+    
+}
+
+.nav_left-search:hover
+{
+    border:1px solid black;
+    transition: .5s;
+}
+
+.nav_left-search input
+{
+    border:none;
+    width: 370px;
+    font-size: 15px;
+}
+
+.nav_left-search input:focus
+{
+    outline: none;
+}
+
+.nav_left-search img:hover
+{
+    background: rgba(0,0,255,0.1);
+    border-radius: 5px;
+}
+
+.nav_right
+{
+    margin-right: 10px;
+    display: flex;
+    align-content: center;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 40px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+.nav_right button
+{
+    font-size: 15px;
+    margin: 0 4px;
+}
+
+.nav_right-log
+{
+    border:none;
+    background: none;
+    color:black;
+    width: 70px;
+}
+
+.nav_right-log:hover
+{
+    color: rgb(53,73,223);
+    text-decoration: underline;
+    background: rgba(53,73,223,.1);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.nav_right-create
+{
+    border:1px solid rgb(53,73,223);
+    border-radius: 5px;
+    background: none;
+    color:rgb(53,73,223);
+    width: 140px;
+}
+
+.nav_right-create:hover
+{
+    color: white;
+    text-decoration: underline;
+    background: rgb(53,73,223);
+    cursor: pointer;
+}
+
+footer
+{
+    background: rgb(229,229,229);
+    width: 100%;
+    margin-top: 75px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0;
+    font-size: 15px;
+}
+
+footer a
+{
+    text-decoration:none;
+}
+
+footer p
+{
+    margin: 5px 0;
+    cursor:default;
+}
+
+footer i
+{
+    padding: 10px;
+    border-radius: 3px;
+    color: rgb(26,179,166);
+}
+
+footer i:hover
+{
+    cursor: pointer;
+    background: rgb(212,213,229);
+}

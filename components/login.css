@@ -1,0 +1,70 @@
+.logIn_card
+{
+    background: white;
+    border-radius: 10px;
+    border: 1px solid lightgrey;
+    padding: 30px 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.custom_button
+{
+    border: 1px solid black;
+    width: 100%;
+    text-align: center;
+    margin: 5px 0;
+    padding: 10px 0;
+    border-radius: 5px;
+    color: white;
+    background: black;
+    font-weight: bold;
+}
+
+.logIn_card a
+{
+    text-decoration: none;
+}
+
+.logIn_card h2
+{
+    margin: 0;
+}
+
+.reg_mail
+{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.reg_mail *
+{
+    margin: 8px 0;
+}
+
+.mainInput
+{
+    height: 35px;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+
+.reg_continue
+{
+    border:1px solid black;
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.reg_forgot
+{
+    margin: 10px 0;
+}
