@@ -10,6 +10,11 @@
     align-items: center;
 }
 
+.logIn_card:last-child
+{
+    cursor:default;
+}
+
 .custom_button
 {
     border: 1px solid black;
@@ -21,6 +26,11 @@
     color: white;
     background: black;
     font-weight: bold;
+}
+
+.custom_button:hover
+{
+    color: white;
 }
 
 .logIn_card a
@@ -44,11 +54,12 @@
 
 .reg_mail *
 {
-    margin: 8px 0;
+    margin: 1px 0;
 }
 
 .mainInput
 {
+    border: 1px solid lightgray;
     height: 35px;
     border-radius: 5px;
     margin: 10px 0;
@@ -56,12 +67,19 @@
 
 .reg_continue
 {
-    border:1px solid black;
     width: 100%;
     text-align: center;
     padding: 10px 0;
     border-radius: 5px;
     margin: 10px;
+    color: white;
+    background-color: blue
+}
+
+.reg_continue:hover
+{
+    color: white;
+    background-color: rgb(47,58,178);
 }
 
 .reg_forgot
